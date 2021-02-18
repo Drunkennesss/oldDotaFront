@@ -1,0 +1,250 @@
+2020-01-13 18:45:11.3064 | Info | User  logged in | 
+2020-01-13 18:49:30.1433 | Info | User s logged in | 
+2020-01-13 18:50:03.4638 | Info | User: s has begone transaction | 
+2020-01-13 18:51:42.3862 | Info | User s logged in | 
+2020-01-13 18:51:58.8228 | Info | User: s has begone transaction | 
+2020-01-13 18:58:07.5293 | Info | User s logged in | 
+2020-01-13 18:58:34.2076 | Info | User: s has begone transaction | 
+2020-01-13 18:58:58.6489 | Info | User s logged in | 
+2020-01-13 18:59:16.3181 | Info | User: s has begone transaction | 
+2020-01-13 19:00:45.7291 | Info | User s logged in | 
+2020-01-13 19:01:05.5595 | Info | User: s has begone transaction | 
+2020-01-13 19:01:28.6507 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-13 19:02:05.2967 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-13 19:02:27.2591 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-13 19:02:51.9058 | Info | User: s has deleted some heroes. 1 rows affected | 
+2020-01-13 19:03:18.2450 | Error | System.InvalidOperationException: Connection is already open
+   в Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   в datadatabase.Heroes.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\Heroes.xaml.cs:строка 55 | Connection is already open
+2020-01-13 19:03:41.6425 | Error | System.InvalidOperationException: Connection is already open
+   в Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   в datadatabase.Heroes.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\Heroes.xaml.cs:строка 55 | Connection is already open
+2020-01-13 19:05:04.2060 | Info | User: s has reverted reacent transaction | 
+2020-01-13 19:07:00.3405 | Info | User s logged in | 
+2020-01-13 19:08:12.7446 | Info | User s logged in | 
+2020-01-13 19:08:58.4029 | Info | User: s has begone transaction | 
+2020-01-13 19:09:19.3992 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-13 19:09:24.7680 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-13 19:09:32.5924 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-13 19:09:36.4310 | Info | User: s has deleted talent with id: 73. 0 rows were affected | 
+2020-01-13 19:09:41.9961 | Info | User: s has deleted hero_spells with id: 73. 4 rows were affected | 
+2020-01-13 19:09:51.6604 | Info | User: s has deleted spells with id in (293,294,295,296). 4 rows were affected | 
+2020-01-13 19:09:57.6822 | Info | User: s has deleted some heroes. 2 rows affected | 
+2020-01-13 19:11:15.6742 | Info | User: s has reverted reacent transaction | 
+2020-01-13 19:32:04.9789 | Info | User s logged in | 
+2020-01-13 19:34:32.9385 | Info | User s logged in | 
+2020-01-13 22:30:44.6087 | Info | User s logged in | 
+2020-01-13 22:39:47.4618 | Info | User s logged in | 
+2020-01-13 22:43:43.0267 | Info | User s logged in | 
+2020-01-13 22:44:16.8563 | Error | System.InvalidOperationException: Connection must be open for this operation
+   в Oracle.ManagedDataAccess.Client.OracleCommand.ValidateStatePriorToExecution()
+   в Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   в datadatabase.InsertUpdateHeroes.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\InsertUpdateHeroes.xaml.cs:строка 69 | Connection must be open for this operation
+2020-01-13 22:44:38.7003 | Info | User s logged in | 
+2020-01-13 22:47:03.5931 | Info | User s logged in | 
+2020-01-13 22:49:24.6431 | Info | User s logged in | 
+2020-01-13 22:52:10.1739 | Info | User s logged in | 
+2020-01-13 22:54:29.3760 | Info | User s logged in | 
+2020-01-13 22:57:09.8901 | Info | User s logged in | 
+2020-01-13 22:58:23.4325 | Info | User s logged in | 
+2020-01-13 23:02:43.7786 | Info | User debug logged in | 
+2020-01-13 23:06:35.6895 | Info | User: debug has deleted talent with id: 119. 0 rows were affected | 
+2020-01-13 23:06:37.7274 | Info | User: debug has deleted hero_spells with id: 119. 0 rows were affected | 
+2020-01-13 23:06:44.8622 | Info | User: debug has deleted some heroes. 1 rows affected | 
+2020-01-13 23:07:37.9399 | Info | User debug logged in | 
+2020-01-13 23:09:43.5330 | Info | User debug logged in | 
+2020-01-13 23:10:42.9760 | Info | User: debug has deleted talent with id: 119. 0 rows were affected | 
+2020-01-13 23:10:44.4413 | Info | User: debug has deleted hero_spells with id: 119. 0 rows were affected | 
+2020-01-13 23:10:56.5812 | Info | User: debug has deleted some heroes. 1 rows affected | 
+2020-01-13 23:15:10.2877 | Info | User debug logged in | 
+2020-01-13 23:16:16.0391 | Info | User: debug has deleted talent with id: 119. 0 rows were affected | 
+2020-01-13 23:16:18.4569 | Info | User: debug has deleted hero_spells with id: 119. 0 rows were affected | 
+2020-01-13 23:16:22.2675 | Info | User: debug has deleted some heroes. 1 rows affected | 
+2020-01-13 23:18:52.2667 | Info | User s logged in | 
+2020-01-13 23:19:10.9162 | Info | User: s has begone transaction | 
+2020-01-13 23:19:16.8237 | Info | User: s has deleted talent with id: 103. 0 rows were affected | 
+2020-01-13 23:19:33.3336 | Info | User: s has deleted hero_spells with id: 103. 4 rows were affected | 
+2020-01-13 23:19:42.8063 | Info | User: s has deleted spells with id in (410,411,412,413). 4 rows were affected | 
+2020-01-13 23:19:52.0481 | Info | User: s has deleted some heroes. 1 rows affected | 
+2020-01-13 23:20:11.5447 | Info | User: s has reverted reacent transaction | 
+2020-01-14 10:49:34.3366 | Info | User debug logged in | 
+2020-01-14 10:51:04.1338 | Info | User debug logged in | 
+2020-01-14 10:54:30.7098 | Info | User s logged in | 
+2020-01-14 11:01:56.9929 | Info | User s logged in | 
+2020-01-14 11:04:28.6717 | Info | User s logged in | 
+2020-01-14 11:06:16.1329 | Info | User s logged in | 
+2020-01-14 11:08:40.1810 | Info | User s logged in | 
+2020-01-14 11:08:54.9518 | Warn | User: s. Invalid input occured while updating hero by Name, got: '103'   | 
+2020-01-14 11:09:45.6517 | Warn | User: s. Invalid input occured while updating hero by Name, got: '103'   | 
+2020-01-14 11:15:16.1530 | Info | User s logged in | 
+2020-01-14 11:23:28.5578 | Info | User s logged in | 
+2020-01-14 11:34:14.1404 | Info | User s logged in | 
+2020-01-14 11:34:59.7812 | Info | User s logged in | 
+2020-01-14 11:45:29.2866 | Info | User s logged in | 
+2020-01-14 11:46:25.4635 | Info | User s logged in | 
+2020-01-14 11:47:37.3158 | Info | User s logged in | 
+2020-01-14 11:50:12.4985 | Info | User s logged in | 
+2020-01-14 11:51:55.9257 | Info | User s logged in | 
+2020-01-14 11:53:13.2850 | Info | User s logged in | 
+2020-01-14 11:54:38.0544 | Info | User s logged in | 
+2020-01-14 12:19:57.1000 | Info | User s logged in | 
+2020-01-14 12:22:06.3634 | Info | User s logged in | 
+2020-01-14 12:27:52.5334 | Info | User s logged in | 
+2020-01-14 12:29:00.5006 | Info | User s logged in | 
+2020-01-14 12:29:44.8430 | Warn | User: s. Invalid input occured while searching for heroes by Id, got: '1s'   | 
+2020-01-14 12:31:55.0128 | Info | User s logged in | 
+2020-01-14 15:01:54.0807 | Info | User s logged in | 
+2020-01-14 15:02:42.5324 | Info | User s logged in | 
+2020-01-14 15:04:44.8461 | Info | User s logged in | 
+2020-01-14 15:49:21.5502 | Info | User s logged in as admin | 
+2020-01-14 15:54:38.8464 | Info | User s logged in as admin | 
+2020-01-14 15:55:35.1626 | Info | User s logged in as admin | 
+2020-01-14 15:56:05.4457 | Info | User s logged in as admin | 
+2020-01-14 16:31:33.5139 | Info | User s logged in as user | 
+2020-01-14 16:54:09.5274 | Info | User s logged in as user | 
+2020-01-14 16:56:10.9311 | Info | User ad logged in as admin | 
+2020-01-14 16:57:00.6726 | Error | Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00942: table or view does not exist
+   в OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   в OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   в Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   в datadatabase.talents.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\talents.xaml.cs:строка 74 | ORA-00942: table or view does not exist
+2020-01-14 16:58:56.7750 | Info | User s logged in as admin | 
+2020-01-14 16:59:26.3002 | Info | User: s has inserted talent with hero_id = 0, hero_level = 10. 1 rows affected | 
+2020-01-14 17:00:29.8560 | Info | User s logged in as admin | 
+2020-01-14 17:04:22.3911 | Info | User s logged in as admin | 
+2020-01-14 17:04:29.9832 | Warn | User: s passed no arguments while searching for heroes | 
+2020-01-14 17:04:58.7029 | Warn | User: s passed no arguments while searching for heroes | 
+2020-01-14 17:05:18.4886 | Info | User s logged in as admin | 
+2020-01-14 17:06:09.3483 | Warn | User: s passed no arguments while searching for heroes | 
+2020-01-14 17:07:07.8456 | Info | User s logged in as admin | 
+2020-01-15 09:55:33.8554 | Info | User ы logged in as admin | 
+2020-01-15 09:55:37.5022 | Error | Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00933: SQL command not properly ended
+   в OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   в OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   в Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   в datadatabase.talents.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\talents.xaml.cs:строка 59 | ORA-00933: SQL command not properly ended
+2020-01-15 09:55:57.8323 | Info | User ы logged in as admin | 
+2020-01-15 09:56:22.2323 | Info | User ы logged in as admin | 
+2020-01-15 09:57:18.1090 | Warn | User: ы. Invalid input occured while searching for heroes by MainAttr, got: 'd'   | 
+2020-01-15 10:08:26.0038 | Info | User a logged in as admin | 
+2020-01-15 10:08:36.4601 | Error | Oracle.ManagedDataAccess.Client.OracleException (0x80004005): ORA-00933: SQL command not properly ended
+   в OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   в OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, Boolean isFromEF)
+   в Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   в datadatabase.talents.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\talents.xaml.cs:строка 59 | ORA-00933: SQL command not properly ended
+2020-01-15 10:13:59.8390 | Info | User ss logged in as admin | 
+2020-01-15 11:57:06.2741 | Info | User ss logged in as admin | 
+2020-01-15 11:57:30.9146 | Info | User ss logged in as admin | 
+2020-01-15 11:58:07.5138 | Info | User ss logged in as admin | 
+2020-01-15 11:58:19.7191 | Info | User Enter your name logged in as admin | 
+2020-01-15 11:59:37.3784 | Info | User ss logged in as admin | 
+2020-01-15 12:00:03.8675 | Info | User s logged in as admin | 
+2020-01-15 12:00:14.6345 | Info | User s logged in as admin | 
+2020-01-15 12:06:20.0352 | Info | User s logged in as admin | 
+2020-01-15 12:26:22.4650 | Info | User ы logged in as admin | 
+2020-01-15 12:29:23.5069 | Info | User aa logged in as admin | 
+2020-01-15 12:31:16.1318 | Info | User ss logged in as admin | 
+2020-01-15 12:32:57.2661 | Info | User ss logged in as admin | 
+2020-01-15 12:35:05.4434 | Info | User s logged in as admin | 
+2020-01-15 12:37:33.2223 | Info | User s logged in as admin | 
+2020-01-15 12:39:37.6028 | Info | User s logged in as admin | 
+2020-01-16 14:19:50.4146 | Info | User s logged in as admin | 
+2020-01-16 14:22:35.7044 | Info | User: s has begone transaction | 
+2020-01-16 14:22:35.7701 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-16 14:22:35.7889 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-16 14:22:35.9148 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-16 14:22:35.9218 | Info | User: s has deleted talent with id: 73. 0 rows were affected | 
+2020-01-16 14:22:35.9218 | Info | User: s has deleted hero_spells with id: 73. 4 rows were affected | 
+2020-01-16 14:22:35.9481 | Info | User: s has deleted spells with id in (293,294,295,296). 4 rows were affected | 
+2020-01-16 14:22:35.9541 | Info | User: s has deleted talent with id: 74. 0 rows were affected | 
+2020-01-16 14:22:35.9541 | Info | User: s has deleted hero_spells with id: 74. 4 rows were affected | 
+2020-01-16 14:22:35.9691 | Info | User: s has deleted spells with id in (297,298,299,300). 4 rows were affected | 
+2020-01-16 14:22:35.9691 | Info | User: s has deleted some heroes. 3 rows affected | 
+2020-01-16 14:23:51.1341 | Info | User s logged in as admin | 
+2020-01-16 14:24:09.9815 | Info | User: s has begone transaction | 
+2020-01-16 14:24:10.0220 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-16 14:24:10.0300 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-16 14:24:10.0300 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-16 14:24:10.0480 | Info | User: s has deleted talent with id: 73. 0 rows were affected | 
+2020-01-16 14:24:10.0480 | Info | User: s has deleted hero_spells with id: 73. 4 rows were affected | 
+2020-01-16 14:24:10.0599 | Info | User: s has deleted spells with id in (293,294,295,296). 4 rows were affected | 
+2020-01-16 14:24:10.0599 | Info | User: s has deleted talent with id: 74. 0 rows were affected | 
+2020-01-16 14:24:10.0599 | Info | User: s has deleted hero_spells with id: 74. 4 rows were affected | 
+2020-01-16 14:24:10.0779 | Info | User: s has deleted spells with id in (297,298,299,300). 4 rows were affected | 
+2020-01-16 14:24:10.0779 | Info | User: s has deleted some heroes. 3 rows affected | 
+2020-01-16 14:24:21.0785 | Info | User: s has reverted reacent transaction | 
+2020-01-16 14:27:09.3501 | Info | User s logged in as admin | 
+2020-01-16 14:27:43.0145 | Info | User: s has begone transaction | 
+2020-01-16 14:27:43.0145 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-16 14:27:43.0344 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-16 14:27:43.0344 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-16 14:27:43.0464 | Info | User: s has deleted talent with id: 73. 0 rows were affected | 
+2020-01-16 14:27:43.0464 | Info | User: s has deleted hero_spells with id: 73. 4 rows were affected | 
+2020-01-16 14:27:43.0653 | Info | User: s has deleted spells with id in (293,294,295,296). 4 rows were affected | 
+2020-01-16 14:27:43.0653 | Info | User: s has deleted talent with id: 74. 0 rows were affected | 
+2020-01-16 14:27:43.0773 | Info | User: s has deleted hero_spells with id: 74. 4 rows were affected | 
+2020-01-16 14:27:43.0773 | Info | User: s has deleted spells with id in (297,298,299,300). 4 rows were affected | 
+2020-01-16 14:27:43.0773 | Info | User: s has deleted some heroes. 3 rows affected | 
+2020-01-16 14:28:34.2545 | Info | User: s has reverted reacent transaction | 
+2020-01-16 14:52:51.6947 | Info | User s logged in as admin | 
+2020-01-16 14:58:14.9663 | Info | User s logged in as user | 
+2020-01-16 14:59:59.6668 | Info | User s logged in as user | 
+2020-01-16 15:03:43.7499 | Info | User s logged in as user | 
+2020-01-16 15:05:57.5860 | Info | User s logged in as user | 
+2020-01-16 15:34:13.0760 | Info | User s logged in as user | 
+2020-01-16 15:35:21.1130 | Info | User s logged in as user | 
+2020-01-16 15:37:04.6030 | Info | User s logged in as user | 
+2020-01-16 15:39:11.7797 | Info | User s logged in as user | 
+2020-01-16 15:40:01.9896 | Info | User s logged in as user | 
+2020-01-16 15:43:43.3542 | Info | User s logged in as user | 
+2020-01-16 15:47:03.1179 | Info | User s logged in as user | 
+2020-01-16 15:52:53.1966 | Info | User s logged in as user | 
+2020-01-16 15:53:39.7321 | Info | User s logged in as user | 
+2020-01-16 15:57:47.9223 | Info | User s logged in as user | 
+2020-01-16 16:05:17.6820 | Info | User ss logged in as user | 
+2020-01-16 16:12:48.7254 | Info | User s logged in as user | 
+2020-01-16 16:12:53.3331 | Info | User s logged in as user | 
+2020-01-16 16:13:00.4434 | Info | User s logged in as user | 
+2020-01-16 16:13:21.9211 | Info | User: s has begone transaction | 
+2020-01-16 16:13:21.9351 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-16 16:13:21.9351 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-16 16:13:21.9351 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-16 16:13:21.9554 | Info | User: s has deleted some heroes. 1 rows were affected | 
+2020-01-16 16:13:53.0769 | Info | User s logged in as user | 
+2020-01-16 16:14:46.3938 | Info | User: s has begone transaction | 
+2020-01-16 16:15:02.6333 | Info | User: s has deleted talent with id: 72. 0 rows were affected | 
+2020-01-16 16:15:17.1982 | Info | User: s has deleted hero_spells with id: 72. 3 rows were affected | 
+2020-01-16 16:15:31.1785 | Info | User: s has deleted spells with id in (290,291,292). 3 rows were affected | 
+2020-01-16 16:15:40.2031 | Info | User: s has deleted some heroes. 1 rows were affected | 
+2020-01-16 16:17:43.3845 | Info | User ss logged in as user | 
+2020-01-16 16:22:05.8175 | Info | User ы logged in as user | 
+2020-01-16 16:22:26.8488 | Warn | User: ы. Invalid input occured while searching for spells by Name, got: 'Will-O-Wisp'   | 
+2020-01-16 16:24:38.5056 | Info | User s logged in as user | 
+2020-01-16 18:33:43.5208 | Info | User s logged in as user | 
+2020-01-16 18:37:35.2199 | Info | User s logged in as user | 
+2020-01-16 21:37:18.7318 | Info | User s logged in as user | 
+2020-01-16 21:37:42.1732 | Info | User: s has begone transaction | 
+2020-01-16 21:38:11.1804 | Info | User: s has deleted some rows from hero_spells where id = 290. 1 rows were affected | 
+2020-01-16 21:38:12.7129 | Info | User: s has deleted some rows from spells where id = 290. 1 rows were affected | 
+2020-01-16 21:38:34.6426 | Info | User: s has deleted some spells. 0 rows affected | 
+2020-01-16 21:38:50.0297 | Info | User: s has reverted reacent transaction | 
+2020-01-16 21:39:15.3366 | Info | User: s has begone transaction | 
+2020-01-16 21:47:14.0436 | Info | User s logged in as user | 
+2020-01-16 21:48:01.9965 | Info | User s logged in as user | 
+2020-01-16 21:48:35.2439 | Info | User: s has begone transaction | 
+2020-01-16 21:48:35.2569 | Info | User: s has deleted some rows from hero_spells where id = 290. 1 rows were affected | 
+2020-01-16 21:48:35.2569 | Info | User: s has deleted some rows from spells where id = 290. 1 rows were affected | 
+2020-01-16 21:48:35.2689 | Info | User: s has deleted some rows from hero_spells where id = 291. 1 rows were affected | 
+2020-01-16 21:48:35.2689 | Info | User: s has deleted some rows from spells where id = 291. 1 rows were affected | 
+2020-01-16 21:48:35.2818 | Info | User: s has deleted some spells. 0 rows affected | 
+2020-01-16 21:49:01.0059 | Info | User: s has reverted reacent transaction | 
+2020-01-17 10:10:28.9953 | Info | User s logged in as user | 
+2020-01-17 10:11:25.2416 | Info | User: s has updated hero with id = 80 | 
+2020-01-17 10:12:03.0694 | Info | User s logged in as user | 
+2020-01-17 10:15:52.0519 | Info | User ss logged in as user | 
+2020-01-17 10:16:39.6935 | Info | User: ss has updated hero with id = 80 | 
+2020-01-17 10:16:53.5696 | Info | User: ss has updated hero 80 with new spell 322 | 
+2020-01-17 10:17:22.3376 | Info | User: ss has updated hero with id = 80 | 
+2020-01-17 10:17:27.1419 | Info | User: ss has updated hero 80 spell 322 was deleted | 
+2020-01-17 10:17:31.4408 | Error | System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в datadatabase.InsertUpdateHeroes.Button_Click(Object sender, RoutedEventArgs e) в D:\Me\многа букаф\datadatabase\datadatabase\InsertUpdateHeroes.xaml.cs:строка 135 | Ссылка на объект не указывает на экземпляр объекта.

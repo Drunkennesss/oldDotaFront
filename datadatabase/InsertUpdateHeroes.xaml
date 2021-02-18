@@ -1,0 +1,80 @@
+﻿<Page x:Class="datadatabase.InsertUpdateHeroes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:datadatabase"
+      mc:Ignorable="d" 
+      d:DesignHeight="690" d:DesignWidth="910"
+      Title="InsertUpdateHeroes">
+
+    <Grid>
+        <Label Content="Name: " HorizontalAlignment="Left" Margin="45,67,0,0" VerticalAlignment="Top" Height="30" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Mainstat" HorizontalAlignment="Left" Margin="45,101,0,0" VerticalAlignment="Top" Height="36" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="AttackType" HorizontalAlignment="Left" Margin="45,144,0,0" VerticalAlignment="Top" Height="35" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="AttackRange" HorizontalAlignment="Left" Margin="33,180,0,0" VerticalAlignment="Top" Height="34" Width="102" RenderTransformOrigin="0.5,0.5" FontFamily="Times New Roman" FontSize="16">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="1.599"/>
+                    <RotateTransform Angle="0.115"/>
+                    <TranslateTransform X="0.572"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Agil" HorizontalAlignment="Left" Margin="45,219,0,0" VerticalAlignment="Top" Height="32" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Intel" HorizontalAlignment="Left" Margin="45,256,0,0" VerticalAlignment="Top" Height="32" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Stren" HorizontalAlignment="Left" Margin="45,293,0,0" VerticalAlignment="Top" Height="31" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="AgilIncr" HorizontalAlignment="Left" Margin="45,329,0,0" VerticalAlignment="Top" Height="32" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="IntIncr" HorizontalAlignment="Left" Margin="45,366,0,0" VerticalAlignment="Top" Height="31" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="StrenIncr" HorizontalAlignment="Left" Margin="45,402,0,0" VerticalAlignment="Top" Height="31" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Damage" HorizontalAlignment="Left" Margin="45,438,0,0" VerticalAlignment="Top" Height="31" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="HpBase" HorizontalAlignment="Left" Margin="45,474,0,0" VerticalAlignment="Top" Height="32" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="ManaBase" HorizontalAlignment="Left" Margin="45,511,0,0" VerticalAlignment="Top" Height="30" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Armor" HorizontalAlignment="Left" Margin="45,546,0,0" VerticalAlignment="Top" Height="31" Width="91" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="AttackSpeed" HorizontalAlignment="Left" Margin="45,582,0,0" VerticalAlignment="Top" Width="91" Height="31" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Movespeed" HorizontalAlignment="Left" Margin="503,49,0,0" VerticalAlignment="Top" Height="30" Width="92" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="Spellresist" HorizontalAlignment="Left" Margin="503,84,0,0" VerticalAlignment="Top" Height="36" Width="92" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="HpRegen" HorizontalAlignment="Left" Margin="503,125,0,0" VerticalAlignment="Top" Height="30" Width="92" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="ManaRegen" HorizontalAlignment="Left" Margin="503,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.193,0.297" Height="31" Width="92" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="ViewRange" HorizontalAlignment="Left" Margin="503,191,0,0" VerticalAlignment="Top" Width="92" Height="30" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="ProjSpeed" HorizontalAlignment="Left" Margin="503,235,0,0" VerticalAlignment="Top" Width="92" Height="32" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Name"  HorizontalAlignment="Left" Height="30" Margin="141,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <ComboBox x:Name="AttackType" HorizontalAlignment="Left" Margin="141,146,0,0" VerticalAlignment="Top" Width="207" Height="30" FontFamily="Times New Roman" FontSize="16" SelectedIndex="0">
+            <ComboBoxItem Content="melee" FontSize="16" FontFamily="Times New Roman"/>
+            <ComboBoxItem Content="range" FontSize="16" FontFamily="Times New Roman"/>
+        </ComboBox>
+        <TextBox x:Name="AttackRange" PreviewTextInput="TextBox_PreviewTextInput"  DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="33" Margin="141,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Agil" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="32" Margin="141,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Intel" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="32" Margin="141,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Stren" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="AgilIncr" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="32" Margin="141,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="IntIncr" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="StrIncr" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Damage" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,438,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="HpBase" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="32" Margin="141,474,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="ManaBase" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="30" Margin="141,511,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="Armor" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,546,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" RenderTransformOrigin="0.495,0.496" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="AttackSpeed" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="141,582,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <ComboBox x:Name="MainStat"  HorizontalAlignment="Left" Margin="141,102,0,0" VerticalAlignment="Top" Width="207" Height="36" FontFamily="Times New Roman" FontSize="16" SelectedIndex="0">
+            <ComboBoxItem Content="agi" FontSize="16" FontFamily="Times New Roman"/>
+            <ComboBoxItem Content="int" FontSize="16" FontFamily="Times New Roman"/>
+            <ComboBoxItem Content="str" FontSize="16" FontFamily="Times New Roman"/>
+        </ComboBox>
+        <TextBox x:Name="MoveSpeed" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="30" Margin="610,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="SpellResist" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="36" Margin="610,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="HpRegen" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="30" Margin="610,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="ManaRegen" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="26" Margin="610,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="ViewRange" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="30" Margin="610,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <TextBox x:Name="ProjSpeed" PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="32" Margin="610,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="16"/>
+        <Button Content="Confirm" HorizontalAlignment="Left" Margin="675,361,0,0" VerticalAlignment="Top" Width="100" Height="31" FontFamily="Times New Roman" FontSize="16" Click="Button_Click"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="675,490,0,0" VerticalAlignment="Top" Width="100" Height="30" FontFamily="Times New Roman" FontSize="16" Click="Button_Click_1"/>
+        <TextBox x:Name="AddSpell"  PreviewTextInput="TextBox_PreviewTextInput" DataObject.Pasting="TextBoxPasting" HorizontalAlignment="Left" Height="31" Margin="607,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" FontFamily="Times New Roman" FontSize="16"/>
+        <Label x:Name="_info" Content="" HorizontalAlignment="Left" Margin="141,22,0,0" VerticalAlignment="Top" Width="207" Height="40" FontFamily="Times New Roman" FontSize="16"/>
+        <ComboBox x:Name="_addspell" HorizontalAlignment="Left" Margin="482,272,0,0" VerticalAlignment="Top" Width="120" Height="31" FontFamily="Times New Roman" FontSize="16" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="AddSpellbyId" IsSelected="True"/>
+            <ComboBoxItem x:Name="_combo_delete" Content="DeleteSpellbyId"/>
+        </ComboBox>
+
+    </Grid>
+</Page>

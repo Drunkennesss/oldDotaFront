@@ -1,0 +1,19 @@
+﻿<Page x:Class="datadatabase.spelltype"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:datadatabase"
+      mc:Ignorable="d" 
+      d:DesignHeight="690" d:DesignWidth="910"
+      Title="spelltype">
+
+    <Grid>
+        <DataGrid x:Name="DataGrid" HorizontalAlignment="Left" Height="670" Margin="469,10,0,0" VerticalAlignment="Top" Width="431"/>
+        <Label Content="Typename" HorizontalAlignment="Left" Margin="28,167,0,0" VerticalAlignment="Top" Width="87" Height="29" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox x:Name="typeName" HorizontalAlignment="Left" Height="29" Margin="167,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="207" FontFamily="Times New Roman" FontSize="18"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="167,348,0,0" VerticalAlignment="Top" Width="126" Height="27" FontFamily="Times New Roman" FontSize="18" Click="Button_Click"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="177,578,0,0" VerticalAlignment="Top" Width="75" FontFamily="Times New Roman" FontSize="18" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>
